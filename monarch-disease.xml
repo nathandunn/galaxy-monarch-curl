@@ -1,5 +1,4 @@
-<tool id="monarch-disease" name="Pull Information for Monarch Disease" version="0.1.0">
-    <description>Pulls data a particular disease from Monarch.</description>
+	<tool id="monarch-disease" name="Pull Information from Monarch" version="0.1.0">
     <requirements>
     </requirements>
     <stdio>
@@ -26,13 +25,7 @@
 
 		subject subject_label relation relation_label object object_label evidence evidence_label source is_defined_by qualifier
     ]]></help>
-    <citations>
-        <citation type="bibtex">
-@misc{renameTODO,
-  author = {LastTODO, FirstTODO},
-  year = {TODO},
-  title = {TODO},
-  url = {doi:10.1038/nprot.2015.124},
-}</citation>
+	<citations>
+		<citation type="doi">doi:10.1038/nprot.2015.124<citation>
     </citations>
 </tool>

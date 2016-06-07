@@ -2,6 +2,6 @@
 
 planemo serve
 
-![Arguments](arguments.jpg)
-![Demo](demo.jpg)
+![Demo](demo.png)
+![Arguments](arguments.png)
 

@@ -2,6 +2,6 @@
 
 planemo serve
 
-![Arguments](arguments.jpg)
-![Demo](demo.jpg)
+![Arguments](https://github.com/nathandunn/galaxy-monarch-curl/blob/master/arguments.jpg)
+![Demo](https://github.com/nathandunn/galaxy-monarch-curl/blob/master/demo.jpg)
 

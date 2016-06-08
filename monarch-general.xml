@@ -9,20 +9,24 @@
 	]]>
 	</command>
 	<inputs>
-	        <param  name="subjectClosure" type="text" label="Subject Closure"/>
-	        <param  name="objectCategory" type="options" label="Object Category">
-			   <option value="gene">Gene</option>
-			   <option value="disease">Disease</option>
-			   <option value="phenotype">Phenotype</option>
-			   <option value="variant">Variant</option>
-			   <option value="pathway">Pathway</option>
+	        <param  name="subjectClosure" type="text" label="Query"/>
+	        <param  name="subjectCategory" type="select" label="Query Type">
+			   <option value="gene">Gene (e.g. NCBIGene:3630)</option>
+			   <option value="disease">Disease (e.g. DOID:14330)</option>
+			   <option value="phenotype">Phenotype (e.g. HP:0000012)</option>
+			   <option value="variant">Variant (e.g. ClinVarVariant:88854)</option>
+			   <option value="model">Model (e.g. MGI:3850371)</option>
+<!--               <option value="pathway">Pathway</option>-->
+			   <option value="genotype">Genotype (e.g. dbSNPIndividual:14829)</option>
 			</param>
-	        <param  name="subjectCategory" type="options" label="Subject Category">
-			   <option value="gene">Gene</option>
-			   <option value="disease">Disease</option>
-			   <option value="phenotype">Phenotype</option>
-			   <option value="variant">Variant</option>
-			   <option value="pathway">Pathway</option>
+	        <param  name="objectCategory" type="select" label="Object Category">
+			   <option value="gene">Gene (e.g. NCBIGene:3630)</option>
+			   <option value="disease">Disease (e.g. DOID:14330)</option>
+			   <option value="phenotype">Phenotype (e.g. HP:0000012)</option>
+			   <option value="variant">Variant (e.g. ClinVarVariant:88854)</option>
+			   <option value="model">Model (e.g. MGI:3850371)</option>
+<!--               <option value="pathway">Pathway</option>-->
+			   <option value="genotype">Genotype (e.g. dbSNPIndividual:14829)</option>
 			</param>
     </inputs>
     <outputs>

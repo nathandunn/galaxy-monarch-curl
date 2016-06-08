@@ -1,6 +1,5 @@
-	<tool id="monarch-disease" name="Pull Information from Monarch" version="0.1.0">
-    <requirements>
-    </requirements>
+<tool id="monarch-disease" name="Pull Disease Information from Monarch" version="0.1.0">
+    <requirements/>
     <stdio>
         <exit_code range="1:" />
     </stdio>
@@ -25,6 +24,6 @@
 		subject subject_label relation relation_label object object_label evidence evidence_label source is_defined_by qualifier
     ]]></help>
 	<citations>
-		<citation type="doi">doi:10.1038/nprot.2015.124<citation>
+		<citation type="doi">doi:10.1038/nprot.2015.124</citation>
     </citations>
 </tool>

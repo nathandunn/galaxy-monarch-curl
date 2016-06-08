@@ -1,0 +1,30 @@
+	<tool id="monarch-homologues" name="Pull Homologue Information from Monarch" version="0.1.0">
+    <requirements>
+    </requirements>
+    <stdio>
+        <exit_code range="1:" />
+    </stdio>
+	<command><![CDATA[
+	     curl 'https://solr.monarchinitiative.org/solr/golr/select?defType=edismax&qt=standard&indent=on&wt=csv&rows=100000&start=0&fl=object,object_label,object_taxon,object_taxon_label,relation,relation_label,evidence,evidence_label,source,is_defined_by,qualifier&facet=true&facet.mincount=1&facet.sort=count&json.nl=arrarr&facet.limit=25&facet.method=enum&csv.encapsulator=&csv.separator=%09&csv.header=true&csv.mv.separator=%7C&fq=subject_closure:%22${input1}%22&fq=object_category:%22gene%22&fq=relation_closure:%22RO:HOM0000001%22&facet.field=subject_taxon_closure_label&facet.field=object_taxon_closure_label&q=*:*'
+	]]></command>
+	<inputs>
+	        <param  name="input1" type="text" label="Gene" />
+    </inputs>
+    <outputs>
+	        <data name="output1" type="data" format="tsv" />
+    </outputs>
+	 <tests>
+		 <test>
+			 <param name="input1" value="NCBIGene:7466"/>
+			 <output name="output1" file="output.tsv"/>
+		 </test>
+	 </tests>
+    <help><![CDATA[
+        Pulls data from monarch web services as TSV given a gene.
+
+		subject subject_label relation relation_label object object_label evidence evidence_label source is_defined_by qualifier
+    ]]></help>
+	<citations>
+		<citation type="doi">doi:10.1038/nprot.2015.124</citation>
+    </citations>
+</tool>

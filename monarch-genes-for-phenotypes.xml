@@ -1,4 +1,4 @@
-<tool id="monarch-disease" name="Pull Disease Information from Monarch" version="0.1.0">
+<tool id="monarch-genes-for-phenotypes" name="Pull Genes from Phenotypes" version="0.1.0">
     <requirements/>
     <stdio>
         <exit_code range="1:" />

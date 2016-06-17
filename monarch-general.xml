@@ -30,7 +30,7 @@
 			</param>
     </inputs>
     <outputs>
-	        <data name="output1" type="data" format="tsv" />
+	        <data name="output1" type="data" format="tabular" />
     </outputs>
 	 <tests>
 		 <test>

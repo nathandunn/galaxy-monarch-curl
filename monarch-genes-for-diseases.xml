@@ -4,19 +4,33 @@
         <exit_code range="1:" />
     </stdio>
 	<command><![CDATA[
-curl -s 'https://solr.monarchinitiative.org/solr/golr/select?defType=edismax&qt=standard&indent=on&wt=csv&rows=100000&start=0&fl=subject,subject_label,relation,relation_label,object,object_label,evidence,evidence_label,source,is_defined_by,qualifier&facet=true&facet.mincount=1&facet.sort=count&json.nl=arrarr&facet.limit=25&facet.method=enum&csv.encapsulator=&csv.separator=%09&csv.header=true&csv.mv.separator=%7C&fq=subject_closure:%22$input1%22&fq=object_category:%22phenotype%22&fq=subject_category:%22disease%22&facet.field=subject_taxon_closure_label&facet.field=object_taxon_closure_label&q=*:*' -o interim.txt ;
-tail -n +2 interim.txt > $output1 ;
+#set conditional= "%20OR%20"
+#set prefix = "object_closure:%22"
+#set suffix = "%22"
+#set inputString = ""
+#for input in $input1.split(",")
+  #if $inputString != ""
+    #set inputString = $inputString + $conditional
+  #end if
+  #set inputString = $inputString + $prefix + $input + $suffix
+#end for
+
+curl -s 'https://solr.monarchinitiative.org/solr/golr/select?defType=edismax&qt=standard&indent=on&wt=csv&rows=100000&start=0&fl=subject,subject_label,subject_taxon,subject_taxon_label,relation,relation_label,object,object_label,evidence,evidence_label,source,is_defined_by,qualifier&facet=true&facet.mincount=1&facet.sort=count&json.nl=arrarr&facet.limit=25&facet.method=enum&csv.encapsulator=&csv.separator=%09&csv.header=true&csv.mv.separator=%7C&fq=($inputString)&fq=subject_category:%22gene%22&fq=object_category:%22disease%22&facet.field=subject_taxon_label&q=*:*' | tail -n +2 > $output1
 	]]></command>
 	<inputs>
-	        <param  name="input1" type="text" label="Disease" />
+	     <param  name="input1" type="text" label="Disease" />
     </inputs>
     <outputs>
 	        <data name="output1" type="data" format="tabular" />
     </outputs>
 	 <tests>
 		 <test>
-			 <param name="input1" value="OMIM:127750"/>
-			 <output name="output1" file="output.tsv"/>
+			 <param name="input1" value="DOID:14330"/>
+			 <output name="output1" file="monarch-genes-for-diseases.tsv"/>
+		 </test>
+		 <test>
+			 <param name="input1" value="DOID:14330,OMIM:607426"/>
+			 <output name="output1" file="monarch-genes-for-2-diseases.tsv"/>
 		 </test>
 	 </tests>
     <help><![CDATA[

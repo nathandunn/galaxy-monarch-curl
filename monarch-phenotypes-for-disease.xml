@@ -34,7 +34,7 @@ curl -s 'https://solr.monarchinitiative.org/solr/golr/select?defType=edismax&qt=
          <test>
              <param name="input1" value="diseases.tsv"/>
              <param name="conditional1" value="OR"/>
-             <output name="output1" file="monarch-genes-for-diseases.tsv"/>
+             <output name="output1" file="genes-for-diseases.tsv"/>
          </test>
          <test>
              <param name="input1" value="2-diseases-overlap.tsv"/>

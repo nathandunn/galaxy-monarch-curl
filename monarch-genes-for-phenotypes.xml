@@ -32,8 +32,19 @@ curl -s 'https://solr.monarchinitiative.org/solr/golr/select?defType=edismax&qt=
     </outputs>
 	 <tests>
 		 <test>
-			 <param name="input1" value="OMIM:127750"/>
-			 <output name="output1" file="output.tsv"/>
+			 <param name="input1" value="genes.tsv"/>
+			 <param name="conditional1" value="OR"/>
+			 <output name="output1" file="variants-for-genes.tsv"/>
+		 </test>
+		 <test>
+			 <param name="input1" value="2-genes-overlap.tsv"/>
+			 <param name="conditional1" value="AND"/>
+			 <output name="output1" file="variants-for-2-genes-intersection.tsv"/>
+		 </test>
+		 <test>
+			 <param name="input1" value="2-genes-overlap.tsv"/>
+			 <param name="conditional1" value="OR"/>
+			 <output name="output1" file="variants-for-2-genes-union.tsv"/>
 		 </test>
 	 </tests>
     <help><![CDATA[

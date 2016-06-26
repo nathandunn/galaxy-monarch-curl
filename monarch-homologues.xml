@@ -32,9 +32,20 @@ curl -s 'https://solr.monarchinitiative.org/solr/golr/select?defType=edismax&qt=
     </outputs>
 	 <tests>
 		 <test>
-			 <param name="input1" value="NCBIGene:7466"/>
-			 <output name="output1" file="output.tsv"/>
+			 <param name="input1" value="genes.tsv"/>
+             <param name="conditional1" value="OR"/>
+			 <output name="output1" file="homologues-for-gene.tsv"/>
 		 </test>
+         <test>
+             <param name="input1" value="2-genes.tsv"/>
+             <param name="conditional1" value="OR"/>
+             <output name="output1" file="homologues-for-genes-union.tsv"/>
+         </test>
+         <test>
+             <param name="input1" value="2-genes.tsv"/>
+             <param name="conditional1" value="AND"/>
+             <output name="output1" file="homologues-for-genes-intersection.tsv"/>
+         </test>
 	 </tests>
     <help><![CDATA[
         Pulls data from monarch web services as TSV given a gene.

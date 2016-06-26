@@ -31,10 +31,21 @@ curl -s 'https://solr.monarchinitiative.org/solr/golr/select?defType=edismax&qt=
 	        <data name="output1" type="data" format="tabular" />
     </outputs>
 	 <tests>
-		 <test>
-			 <param name="input1" value="OMIM:127750"/>
-			 <output name="output1" file="output.tsv"/>
-		 </test>
+         <test>
+             <param name="input1" value="diseases.tsv"/>
+             <param name="conditional1" value="OR"/>
+             <output name="output1" file="monarch-genes-for-diseases.tsv"/>
+         </test>
+         <test>
+             <param name="input1" value="2-diseases-overlap.tsv"/>
+             <param name="conditional1" value="AND"/>
+             <output name="output1" file="phenotypes-for-2-diseases-intersection.tsv"/>
+         </test>
+         <test>
+             <param name="input1" value="2-diseases-overlap.tsv"/>
+             <param name="conditional1" value="OR"/>
+             <output name="output1" file="phenotypes-for-2-diseases-union.tsv"/>
+         </test>
 	 </tests>
     <help><![CDATA[
         Pulls data from monarch web services as TSV given a disease..

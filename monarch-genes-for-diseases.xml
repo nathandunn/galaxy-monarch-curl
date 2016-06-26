@@ -34,12 +34,12 @@ curl -s 'https://solr.monarchinitiative.org/solr/golr/select?defType=edismax&qt=
 		 <test>
 			 <param name="input1" value="diseases.tsv"/>
              <param name="conditional1" value="OR"/>
-			 <output name="output1" file="monarch-genes-for-diseases.tsv"/>
+			 <output name="output1" file="genes-for-diseases.tsv"/>
 		 </test>
 		 <test>
              <param name="input1" value="2-diseases.tsv"/>
              <param name="conditional1" value="OR"/>
-			 <output name="output1" file="monarch-genes-for-2-diseases.tsv"/>
+			 <output name="output1" file="genes-for-2-diseases.tsv"/>
 		 </test>
          <test>
              <param name="input1" value="2-diseases.tsv"/>
@@ -49,12 +49,12 @@ curl -s 'https://solr.monarchinitiative.org/solr/golr/select?defType=edismax&qt=
          <test>
              <param name="input1" value="2-diseases-overlap.tsv"/>
              <param name="conditional1" value="AND"/>
-             <output name="output1" file="monarch-genes-for-2-diseases-intersection.tsv"/>
+             <output name="output1" file="genes-for-2-diseases-intersection.tsv"/>
          </test>
          <test>
              <param name="input1" value="2-diseases-overlap.tsv"/>
              <param name="conditional1" value="OR"/>
-             <output name="output1" file="monarch-genes-for-2-diseases-union.tsv"/>
+             <output name="output1" file="genes-for-2-diseases-union.tsv"/>
          </test>
 	 </tests>
     <help><![CDATA[

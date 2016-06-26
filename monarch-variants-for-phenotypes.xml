@@ -32,19 +32,19 @@ curl 'https://solr.monarchinitiative.org/solr/golr/select?defType=edismax&qt=sta
     </outputs>
 	 <tests>
 		 <test>
-			 <param name="input1" value="phenotypes.tsv"/>
+			 <param name="input1" value="phenotype.tsv"/>
 			 <param name="conditional1" value="OR"/>
-			 <output name="output1" file="variants-for-phenotypes.tsv"/>
+			 <output name="output1" file="genes-for-phenotypes.tsv"/>
 		 </test>
 		 <test>
 			 <param name="input1" value="2-phenotypes-overlap.tsv"/>
 			 <param name="conditional1" value="AND"/>
-			 <output name="output1" file="variants-for-2-phenotypes-intersection.tsv"/>
+			 <output name="output1" file="genes-for-2-phenotypes-intersection.tsv"/>
 		 </test>
 		 <test>
 			 <param name="input1" value="2-phenotypes-overlap.tsv"/>
 			 <param name="conditional1" value="OR"/>
-			 <output name="output1" file="variants-for-2-phenotypes-union.tsv"/>
+			 <output name="output1" file="genes-for-2-phenotypes-union.tsv"/>
 		 </test>
 	 </tests>
     <help><![CDATA[

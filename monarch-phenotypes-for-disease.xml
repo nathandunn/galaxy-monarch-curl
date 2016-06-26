@@ -32,7 +32,7 @@ curl -s 'https://solr.monarchinitiative.org/solr/golr/select?defType=edismax&qt=
     </outputs>
 	 <tests>
          <test>
-             <param name="input1" value="diseases.tsv"/>
+             <param name="input1" value="disease.tsv"/>
              <param name="conditional1" value="OR"/>
              <output name="output1" file="genes-for-diseases.tsv"/>
          </test>

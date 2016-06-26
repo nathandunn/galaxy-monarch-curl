@@ -37,12 +37,12 @@ curl -s 'https://solr.monarchinitiative.org/solr/golr/select?defType=edismax&qt=
 			 <output name="output1" file="variants-for-phenotype.tsv"/>
 		 </test>
 		 <test>
-			 <param name="input1" value="2-phenotypes-overlap.tsv"/>
+			 <param name="input1" value="2-phenotypes.tsv"/>
 			 <param name="conditional1" value="AND"/>
 			 <output name="output1" file="variants-for-phenotypes-intersection.tsv"/>
 		 </test>
 		 <test>
-			 <param name="input1" value="2-phenotypes-overlap.tsv"/>
+			 <param name="input1" value="2-phenotypes.tsv"/>
 			 <param name="conditional1" value="OR"/>
 			 <output name="output1" file="variants-for-phenotypes-union.tsv"/>
 		 </test>

@@ -1,0 +1,6 @@
+categories: [Web Services]
+description: Enriches Related biological data using ontology driven data.
+long_description: Tool Suite that Pulls related Variants, Phenotypes, Diseases, Genes,
+  and Homologes
+name: geneontology
+owner: nathandunn

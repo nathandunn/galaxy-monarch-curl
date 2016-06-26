@@ -4,7 +4,7 @@ This project wraps the Gene Ontology SOLR services (GOLR) exposed by the [Monarc
 
 # Gene Ontology Curl
 
-planemo serve
+    planemo serve
 
 ![Demo](demo.png)
 ![Arguments](arguments.png)

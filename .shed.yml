@@ -1,6 +1,6 @@
 categories: [Web Services]
 description: Enriches Related biological data using ontology driven data.
 long_description: Tool Suite that Pulls related Variants, Phenotypes, Diseases, Genes,
-  and Homologes
-name: geneontology
+  and Homologues as TSV or phenopackets from the monarch initiative GOLR server  'https://monarchinitiative.org'
+name: monarchinitiative
 owner: nathandunn

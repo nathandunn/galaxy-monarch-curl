@@ -63,9 +63,8 @@ curl -s 'https://monarchinitiative.org/phenopacket?q=*:*&fq=($inputString)&sfq=s
         </test>
     </tests>
     <help><![CDATA[
-        Pulls data from monarch web services as TSV given a disease..
-
-		subject subject_label relation relation_label object object_label evidence evidence_label source is_defined_by qualifier
+        Pulls phenopacket from data from monarch web services from one or more variants.
+		https://github.com/phenopackets/phenopacket-format/wiki/Getting-Started
     ]]></help>
     <citations>
         <citation type="doi">doi:10.1038/nprot.2015.124</citation>

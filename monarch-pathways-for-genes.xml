@@ -1,4 +1,4 @@
-<tool id="monarch-variants-for-diseases" name="Pull Variants from Diseases" version="0.1.0">
+<tool id="monarch-pathways-for-genes" name="Pull Pathways from Genes" version="0.1.0">
     <requirements/>
     <stdio>
         <exit_code range="1:" />
@@ -23,7 +23,7 @@ curl -s 'https://solr.monarchinitiative.org/solr/golr/select?defType=edismax&qt=
 
 	]]></command>
 	<inputs>
-        <param  name="input1" type="data" format="tabular" multiple="true"  label="Disease" />
+        <param  name="input1" type="data" format="tabular" multiple="true"  label="Genes" />
 		<param  name="conditional1" type="select" multiple="false" display="radio" label="Conditional">
 			<option value="AND">and</option>
 			<option value="OR">or</option>
@@ -51,7 +51,7 @@ curl -s 'https://solr.monarchinitiative.org/solr/golr/select?defType=edismax&qt=
 	 </tests>
     <help><![CDATA[
         Pulls data from monarch web services as TSV given a disease.
-		subject,subject_label,subject_taxon,subject_taxon_label,subject_gene,subject_gene_label,relation,relation_label,object,object_label,evidence,evidence_label,source,is_defined_by,qualifier
+        object,object_label,relation,relation_label,subject,subject_label,evidence,evidence_label,source,is_defined_by,qualifier
     ]]></help>
 	<citations>
 		<citation type="doi">doi:10.5281/zenodo.56412</citation>

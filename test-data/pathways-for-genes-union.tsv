@@ -1,0 +1,8 @@
+KEGG-path:ko05223	Non-small cell lung cancer	RO:0002331	involved in	NCBIGene:11186	RASSF1				http://data.monarchinitiative.org/ttl/ctd.ttl	direct
+http://www.reactome.org/PathwayBrowser/#REACT_115566	Cell Cycle	RO:0002331	involved in	NCBIGene:675	breast cancer 2				http://data.monarchinitiative.org/ttl/ctd.ttl	direct
+KEGG-path:ko05219	Bladder cancer	RO:0002331	involved in	NCBIGene:11186	RASSF1				http://data.monarchinitiative.org/ttl/ctd.ttl	direct
+http://www.reactome.org/PathwayBrowser/#REACT_216	DNA Repair	RO:0002331	involved in	NCBIGene:675	breast cancer 2				http://data.monarchinitiative.org/ttl/ctd.ttl	direct
+KEGG-path:ko05212	Pancreatic cancer	RO:0002331	involved in	NCBIGene:675	breast cancer 2				http://data.monarchinitiative.org/ttl/ctd.ttl	direct
+KEGG-path:ko05200	Pathways in cancer	RO:0002331	involved in	NCBIGene:11186	RASSF1				http://data.monarchinitiative.org/ttl/ctd.ttl	direct
+KEGG-path:ko05200	Pathways in cancer	RO:0002331	involved in	NCBIGene:675	breast cancer 2				http://data.monarchinitiative.org/ttl/ctd.ttl	direct
+KEGG-path:ko03440	Homologous recombination	RO:0002331	involved in	NCBIGene:675	breast cancer 2				http://data.monarchinitiative.org/ttl/ctd.ttl	direct

@@ -1,13 +1,12 @@
 
 
-This project wraps the Gene Ontology SOLR services (GOLR) exposed by the [Monarch initiative](https://monarchinitiative.org). 
+This project wraps the Gene Ontology SOLR services (GOLR) exposed by the      `Monarch initiative <https://monarchinitiative.org>`_
 
-[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.56412.svg)](http://dx.doi.org/10.5281/zenodo.56412)
+.. image:: https://zenodo.org/badge/doi/10.5281/zenodo.56412.svg
+   :target: http://dx.doi.org/10.5281/zenodo.56412
 
-# Gene Ontology Curl
+.. image:: demo.png
 
-    planemo serve
+.. image:: arguments.png
 
-![Demo](demo.png)
-![Arguments](arguments.png)
 

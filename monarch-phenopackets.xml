@@ -1,4 +1,4 @@
-<tool id="monarch-phenopackets-for-disease" name="Pull Diseases from Phenotypes as Phenopackets" version="0.1.0">
+<tool id="monarch-phenopackets-for-disease" name="Pull Phenotypes as Phenopackets for Diseases" version="0.1.0">
     <requirements/>
     <stdio>
         <exit_code range="1:"/>

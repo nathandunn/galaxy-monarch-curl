@@ -32,17 +32,17 @@ curl -s 'https://solr.monarchinitiative.org/solr/golr/select?defType=edismax&qt=
     </outputs>
 	 <tests>
 		 <test>
-			 <param name="input1" value="disease.tsv"/>
+			 <param name="input1" value="pathway-disease.tsv"/>
 			 <param name="conditional1" value="OR"/>
 			 <output name="output1" file="pathways-for-disease.tsv"/>
 		 </test>
 		 <test>
-			 <param name="input1" value="2-diseases-overlap.tsv"/>
+			 <param name="input1" value="pathway-diseases-overlap.tsv"/>
 			 <param name="conditional1" value="AND"/>
 			 <output name="output1" file="pathways-for-diseases-intersection.tsv"/>
 		 </test>
 		 <test>
-			 <param name="input1" value="2-diseases-overlap.tsv"/>
+			 <param name="input1" value="pathway-diseases-overlap.tsv"/>
 			 <param name="conditional1" value="OR"/>
 			 <output name="output1" file="pathways-for-diseases-union.tsv"/>
 		 </test>

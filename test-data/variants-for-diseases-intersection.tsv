@@ -1,33 +1,12 @@
-ClinVarVariant:8113	NM_002973.3(ATXN2):c.496_498CAG(15_24) (p.Gln188_Pro189insGlnGln)	NCBITaxon:9606	Homo sapiens			RO:0002200	has phenotype	OMIM:168600	Parkinson Disease, Late-Onset				http://data.monarchinitiative.org/ttl/clinvar.ttl	direct
-ClinVarVariant:9726	m.3397A>G	NCBITaxon:9606	Homo sapiens			RO:0002200	has phenotype	OMIM:168600	Parkinson Disease, Late-Onset				http://data.monarchinitiative.org/ttl/clinvar.ttl	direct
-ClinVarVariant:29936	NM_012084.3(GLUD2):c.1492T>G (p.Ser498Ala)	NCBITaxon:9606	Homo sapiens			RO:0002200	has phenotype	OMIM:168600	Parkinson Disease, Late-Onset				http://data.monarchinitiative.org/ttl/clinvar.ttl	direct
-ClinVarVariant:4885	FGF20, 951C/T	NCBITaxon:9606	Homo sapiens			RO:0002200	has phenotype	OMIM:168600	Parkinson Disease, Late-Onset				http://data.monarchinitiative.org/ttl/clinvar.ttl	direct
-ClinVarVariant:98243	NM_016835.4(MAPT):c.1838_1840delATA (p.Asn613del)	NCBITaxon:9606	Homo sapiens			RO:0002200	has phenotype	OMIM:168600	Parkinson Disease, Late-Onset				http://data.monarchinitiative.org/ttl/clinvar.ttl	direct
-ClinVarVariant:4295	NM_001005741.2(GBA):c.1504C>T (p.Arg502Cys)	NCBITaxon:9606	Homo sapiens			RO:0002200	has phenotype	OMIM:168600	Parkinson Disease, Late-Onset				http://data.monarchinitiative.org/ttl/clinvar.ttl	direct
-ClinVarVariant:7040	NM_004562.2(PARK2):c.8-?_171+?del	NCBITaxon:9606	Homo sapiens					OMIM:168600	Parkinson Disease, Late-Onset				http://data.monarchinitiative.org/ttl/coriell.ttl	inferred
-ClinVarVariant:56171	NM_015268.3(DNAJC13):c.2564A>G (p.Asn855Ser)	NCBITaxon:9606	Homo sapiens			RO:0002200	has phenotype	OMIM:168600	Parkinson Disease, Late-Onset				http://data.monarchinitiative.org/ttl/clinvar.ttl	direct
-ClinVarVariant:6144	NR_002717.2(ATXN8OS):n.1103_1105CTG(15_40)	NCBITaxon:9606	Homo sapiens			RO:0002200	has phenotype	OMIM:168600	Parkinson Disease, Late-Onset				http://data.monarchinitiative.org/ttl/clinvar.ttl	direct
-ClinVarVariant:7038	NM_004562.2(PARK2):c.245C>A (p.Ala82Glu)	NCBITaxon:9606	Homo sapiens					OMIM:168600	Parkinson Disease, Late-Onset				http://data.monarchinitiative.org/ttl/coriell.ttl	inferred
-ClinVarVariant:96731	NM_198578.3(LRRK2):c.7300A>G (p.Ile2434Val)	NCBITaxon:9606	Homo sapiens			RO:0002200	has phenotype	OMIM:168600	Parkinson Disease, Late-Onset				http://data.monarchinitiative.org/ttl/clinvar.ttl	direct
-ClinVarVariant:3551	NM_004993.5(ATXN3):c.892_894CAG(8_36) (p.Gln298_Gln305=)	NCBITaxon:9606	Homo sapiens			RO:0002200	has phenotype	OMIM:168600	Parkinson Disease, Late-Onset				http://data.monarchinitiative.org/ttl/clinvar.ttl	direct
-ClinVarVariant:96729	NM_032409.2(PINK1):c.923T>A (p.Leu308Gln)	NCBITaxon:9606	Homo sapiens			RO:0002200	has phenotype	OMIM:168600	Parkinson Disease, Late-Onset				http://data.monarchinitiative.org/ttl/clinvar.ttl	direct
-ClinVarVariant:96730	NM_198578.3(LRRK2):c.2352C>A (p.Ser784Arg)	NCBITaxon:9606	Homo sapiens			RO:0002200	has phenotype	OMIM:168600	Parkinson Disease, Late-Onset				http://data.monarchinitiative.org/ttl/clinvar.ttl	direct
-ClinVarVariant:7035	NM_004562.2(PARK2):c.413-?_534+?del	NCBITaxon:9606	Homo sapiens					OMIM:168600	Parkinson Disease, Late-Onset				http://data.monarchinitiative.org/ttl/coriell.ttl	inferred
-ClinVarVariant:96728	NM_032409.2(PINK1):c.644C>T (p.Pro215Leu)	NCBITaxon:9606	Homo sapiens			RO:0002200	has phenotype	OMIM:168600	Parkinson Disease, Late-Onset				http://data.monarchinitiative.org/ttl/clinvar.ttl	direct
-ClinVarVariant:38301	NM_001005741.2(GBA):c.1226A>C (p.Asn409Thr)	NCBITaxon:9606	Homo sapiens			RO:0002200	has phenotype	OMIM:168600	Parkinson Disease, Late-Onset				http://data.monarchinitiative.org/ttl/coriell.ttl|http://data.monarchinitiative.org/ttl/clinvar.ttl	direct
-ClinVarVariant:96727	NM_018206.4(VPS35):c.1576C>T (p.Arg526Cys)	NCBITaxon:9606	Homo sapiens			RO:0002200	has phenotype	OMIM:168600	Parkinson Disease, Late-Onset				http://data.monarchinitiative.org/ttl/clinvar.ttl	direct
-ClinVarVariant:4288	NM_001005741.2(GBA):c.1448T>C (p.Leu483Pro)	NCBITaxon:9606	Homo sapiens			RO:0002200	has phenotype	OMIM:168600	Parkinson Disease, Late-Onset				http://data.monarchinitiative.org/ttl/clinvar.ttl	direct
-ClinVarVariant:1936	NM_198578.3(LRRK2):c.4321C>G (p.Arg1441Gly)	NCBITaxon:9606	Homo sapiens					OMIM:168600	Parkinson Disease, Late-Onset				http://data.monarchinitiative.org/ttl/coriell.ttl	inferred
-ClinVarVariant:7050	NM_004562.2(PARK2):c.823C>T (p.Arg275Trp)	NCBITaxon:9606	Homo sapiens					OMIM:168600	Parkinson Disease, Late-Onset				http://data.monarchinitiative.org/ttl/coriell.ttl	inferred
-ClinVarVariant:9449	NM_003194.4(TBP):c.172_174CAG(25_42) (p.Gln95(25_42))	NCBITaxon:9606	Homo sapiens			RO:0002200	has phenotype	OMIM:168600	Parkinson Disease, Late-Onset				http://data.monarchinitiative.org/ttl/clinvar.ttl	direct
-ClinVarVariant:7048	PARK2, 1-BP DEL, 255A	NCBITaxon:9606	Homo sapiens					OMIM:168600	Parkinson Disease, Late-Onset				http://data.monarchinitiative.org/ttl/coriell.ttl	inferred
+ClinVarVariant:56171	NM_015268.3(DNAJC13):c.2564A>G (p.Asn855Ser)	NCBITaxon:9606	Homo sapiens			GENO:0000840	pathogenic_for_condition	OMIM:168600	Parkinson Disease, Late-Onset			PMID:24218364	http://data.monarchinitiative.org/ttl/clinvar.ttl	direct
+OMIM:602544.0011	PARK2, ALA82GLU							OMIM:168600	Parkinson Disease, Late-Onset				http://data.monarchinitiative.org/ttl/coriell.ttl	inferred
+OMIM:602544.0005	PARK2, EX3DEL							OMIM:168600	Parkinson Disease, Late-Onset				http://data.monarchinitiative.org/ttl/coriell.ttl	inferred
 dbSNP:rs34637584	rs34637584-A	NCBITaxon:9606	Homo sapiens					OMIM:168600	Parkinson Disease, Late-Onset				http://data.monarchinitiative.org/ttl/coriell.ttl	inferred
-ClinVarVariant:7679	NR4A2, 1-BP DEL, -291T	NCBITaxon:9606	Homo sapiens			RO:0002200	has phenotype	OMIM:168600	Parkinson Disease, Late-Onset				http://data.monarchinitiative.org/ttl/clinvar.ttl	direct
-ClinVarVariant:7055	PARK2, EX5-6 DEL	NCBITaxon:9606	Homo sapiens					OMIM:168600	Parkinson Disease, Late-Onset				http://data.monarchinitiative.org/ttl/coriell.ttl	inferred
-ClinVarVariant:96726	NM_007262.4(PARK7):c.399G>C (p.Met133Ile)	NCBITaxon:9606	Homo sapiens			RO:0002200	has phenotype	OMIM:168600	Parkinson Disease, Late-Onset				http://data.monarchinitiative.org/ttl/clinvar.ttl	direct
-ClinVarVariant:4335	NM_001005741.2(GBA):c.1444G>A (p.Asp482Asn)	NCBITaxon:9606	Homo sapiens			RO:0002200	has phenotype	OMIM:168600	Parkinson Disease, Late-Onset				http://data.monarchinitiative.org/ttl/clinvar.ttl	direct
-ClinVarVariant:6078	NM_005460.3(SNCAIP):c.1861C>T (p.Arg621Cys)	NCBITaxon:9606	Homo sapiens			RO:0002200	has phenotype	OMIM:168600	Parkinson Disease, Late-Onset				http://data.monarchinitiative.org/ttl/clinvar.ttl	direct
-ClinVarVariant:31151	NG_031977.1:g.5321_5326GGGGCC(24_?)	NCBITaxon:9606	Homo sapiens					OMIM:168600	Parkinson Disease, Late-Onset				http://data.monarchinitiative.org/ttl/coriell.ttl	inferred
-ClinVarVariant:7680	NR4A2, -245T-G	NCBITaxon:9606	Homo sapiens			RO:0002200	has phenotype	OMIM:168600	Parkinson Disease, Late-Onset				http://data.monarchinitiative.org/ttl/clinvar.ttl	direct
-ClinVarVariant:14009	SNCA, TRIPLICATION	NCBITaxon:9606	Homo sapiens					OMIM:168600	Parkinson Disease, Late-Onset				http://data.monarchinitiative.org/ttl/coriell.ttl	inferred
-dbSNP:rs6265	rs6265-C	NCBITaxon:9606	Homo sapiens			RO:0002200	has phenotype	OMIM:168600	Parkinson Disease, Late-Onset				http://data.monarchinitiative.org/ttl/clinvar.ttl	direct
+OMIM:606463.0003	GBA, ASN370SER							OMIM:168600	Parkinson Disease, Late-Onset				http://data.monarchinitiative.org/ttl/coriell.ttl	inferred
+OMIM:163890.0003	SNCA, TRIPLICATION							OMIM:168600	Parkinson Disease, Late-Onset				http://data.monarchinitiative.org/ttl/coriell.ttl	inferred
+ClinVarVariant:9726	m.3397A>G	NCBITaxon:9606	Homo sapiens			GENO:0000840	pathogenic_for_condition	OMIM:168600	Parkinson Disease, Late-Onset			PMID:7624338	http://data.monarchinitiative.org/ttl/clinvar.ttl	direct
+ClinVarVariant:29936	NM_012084.3(GLUD2):c.1492T>G (p.Ser498Ala)	NCBITaxon:9606	Homo sapiens			GENO:0000840	pathogenic_for_condition	OMIM:168600	Parkinson Disease, Late-Onset			PMID:19826450	http://data.monarchinitiative.org/ttl/clinvar.ttl	direct
+OMIM:602544.0022	PARK2, EX5-6 DEL							OMIM:168600	Parkinson Disease, Late-Onset				http://data.monarchinitiative.org/ttl/coriell.ttl	inferred
+OMIM:602544.0014	PARK2, 1-BP DEL, 255A							OMIM:168600	Parkinson Disease, Late-Onset				http://data.monarchinitiative.org/ttl/coriell.ttl	inferred
+OMIM:602544.0017	PARK2, ARG275TRP							OMIM:168600	Parkinson Disease, Late-Onset				http://data.monarchinitiative.org/ttl/coriell.ttl	inferred
+ClinVarVariant:225276	NM_198578.3(LRRK2):c.4321C>A (p.Arg1441Ser)	NCBITaxon:9606	Homo sapiens			GENO:0000840	pathogenic_for_condition	OMIM:168600	Parkinson Disease, Late-Onset			PMID:27111571	http://data.monarchinitiative.org/ttl/clinvar.ttl	direct

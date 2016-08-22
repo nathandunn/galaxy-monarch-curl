@@ -37,7 +37,7 @@ curl -s 'https://monarchinitiative.org/phenopacket?q=*:*&fq=($inputString)&sfq=s
             <!--<output name="output1" file="phenotypes-for-variant.json"/>-->
             <output name="output1">
                 <assert_contents>
-                    <has_text text='phenopacket":{"phenotype_profile":[{"entity":"ClinVarVariant:217207"'/>
+					<has_text text='phenopacket":{"phenotype_profile":[{"entity":"'/>
                 </assert_contents>
             </output>
         </test>
@@ -47,7 +47,7 @@ curl -s 'https://monarchinitiative.org/phenopacket?q=*:*&fq=($inputString)&sfq=s
             <!--<output name="output1" file="phenotypes-for-variants-intersection.json"/>-->
             <output name="output1">
                 <assert_contents>
-                    <has_text text='phenopacket":{"phenotype_profile":[{"entity":"ClinVarVariant:217207"'/>
+                    <has_text text='{"phenopacket":{"phenotype_profile":[{"entity":"'/>
                 </assert_contents>
             </output>
         </test>
@@ -57,7 +57,7 @@ curl -s 'https://monarchinitiative.org/phenopacket?q=*:*&fq=($inputString)&sfq=s
             <!--<output name="output1" file="phenotypes-for-variants-union.json"/>-->
             <output name="output1">
                 <assert_contents>
-                    <has_text text='phenopacket":{"phenotype_profile":[{"entity":"ClinVarVariant:217207"'/>
+                    <has_text text='{"phenopacket":{"phenotype_profile":[{"entity":"'/>
                 </assert_contents>
             </output>
         </test>

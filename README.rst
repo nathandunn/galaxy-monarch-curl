@@ -27,7 +27,22 @@ which will update the test data
 
 If the test data is non-empty:
 
-git status  | grep modified  | cut -c14-1000 | xargs wc -l
+	git status  | grep modified  | cut -c14-1000 | xargs wc -l
 
 then commit.
+
+
+# Send to the Toolset
+
+Using this reference for publishing: http://planemo.readthedocs.io/en/latest/publishing.html
+
+    planemo shed_lint --tools
+
+    planemo shed_diff --shed_target toolshed
+
+    planemo shed_update --check_diff --shed_target toolshed
+
+    planemo shed_test --shed_target toolshed
+	
+
 

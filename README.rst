@@ -54,4 +54,5 @@ Using this reference for publishing: http://planemo.readthedocs.io/en/latest/pub
     planemo shed_test --shed_target toolshed
 	
 
+Repository link: https://toolshed.g2.bx.psu.edu/repository?repository_id=10020b1222a596c8
 
